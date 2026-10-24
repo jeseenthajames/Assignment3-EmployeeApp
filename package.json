@@ -1,0 +1,24 @@
+{
+  "name": "employee-app-backend",
+  "version": "1.0.0",
+  "description": "Assignment 3: Employee App Backend Integration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "mern"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
